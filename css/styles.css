@@ -141,6 +141,7 @@ margin: 20px 20px 20px 20px;
 	text-align:center;
 	font-family:Arial, Helvetica, sans-serif;
 	color:#fff;
+	border-color:transparent;
 	
 	}
 
@@ -155,6 +156,7 @@ margin: 20px 20px 20px 20px;
 	color:#fff;
 	float:right;
 	display:inline-block;
+	border-color:transparent;
 }
 
 .back_to_dashboard{
@@ -225,6 +227,7 @@ margin: 20px 20px 20px 20px;
 	text-indent:10px;
 	border-top-style: ridge;
 	color: #333;
+	border-top-color:#FFF;
 	}
 	
 	.input_name_of_schema{ 
@@ -236,6 +239,7 @@ margin: 20px 20px 20px 20px;
 	text-indent:10px;
 	border-top-style: ridge;
 	color: #333;
+	border-top-color:#FFF;
 	}
 	
 	.button_upload_cvs{
