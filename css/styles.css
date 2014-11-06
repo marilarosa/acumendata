@@ -1,0 +1,348 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+}
+body {
+	background-color: #FFF;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#545454;
+}
+
+.arial_14 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#545454;
+}
+.arial_14_azul {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#0e739f;
+}
+
+.arial_14_blue_underline {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#0e739f;
+	text-decoration:underline;
+}
+
+.arial_italic_14 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#545454;
+	font-style:italic;
+}
+
+/*LOGIN-ADMIN.HTML*/
+.login{ width:380px;
+height:500px;
+margin-left: auto;
+margin-right:auto;
+vertical-align:central;
+margin-top:5%;
+margin-bottom:5%;
+	}
+.border_login{
+	width:95%;
+	height:60%;
+	border: 2px solid #f1f1f1;
+    border-radius: 5px;
+	margin-left: auto;
+	margin-right:auto;
+	box-shadow: 4px 4px 4px #f1f1f1;
+	margin-top:30px;
+	}
+	
+.input_email{ 
+	margin-left: 8%;
+	margin-right:10%;
+	margin-top:10%;
+	border-radius:5px;
+	width:300px;
+	height:40px;
+	background-image:url(../img/inputserach.png);
+	background-repeat:no-repeat;
+	text-indent:30px;
+	border-top-style: ridge;
+	}
+
+.input_password{ 
+	margin-left: 8%;
+	margin-right:10%;
+	margin-top:5%;
+	border-radius:5px;
+	width:300px;
+	height:40px;
+	background-image:url(../img/inputpassword.png);
+	background-repeat:no-repeat;
+	text-indent:30px;
+	border-top-style: ridge;
+	}	
+	
+	.boton_login{margin-left: 8%;
+	margin-right:10%;
+	margin-top:8%;
+	margin-bottom:6%;
+	border-radius:5px;
+	width:300px;
+	height:50px;
+	background-color:#0f739f;
+	font:"Arial Black", Gadget, sans-serif;
+	color:#fff;
+	font-size:14px;
+}
+
+.forgot_password { font-family:Arial, Helvetica, sans-serif; 
+font-size:12px; 
+color:#a1b1c2;
+text-align:center;}
+
+.forgot_password:link {
+	color: #a1b1c2;
+	text-decoration: none;
+	text-align:justify;
+
+}
+.forgot_password:visited {
+	text-decoration: none;
+	color: #a1b1c2;
+	text-align:justify;
+}
+.forgot_password:hover {
+	text-decoration: none;
+	color: #70859b;
+	text-align:justify;
+}
+.forgot_password:active {
+	text-decoration: none;
+	color: #a1b1c2;
+	text-align:justify;
+}	
+/*HEADER*/
+
+header{ width:100%;
+height:200px;
+margin: 20px 20px 20px 20px;
+}
+
+.add_admin_users_button{
+	box-sizing: content-box 10px;
+	background-color: #bcbcbc;
+	width:145px;
+	height:30px;
+	border-radius:3px;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#fff;
+	
+	}
+
+.logout_button{
+	box-sizing: content-box 10px;
+	background-color: #bcbcbc;
+	width:80px;
+	height:30px;
+	border-radius:3px;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#fff;
+	float:right;
+	display:inline-block;
+}
+
+.back_to_dashboard{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#0e739f;}
+	
+	.back_to_dashboard:link{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#0e739f;
+	text-decoration: none;}
+
+/*ADD NEW ADMIN*/
+
+.block_add_new_admin{
+	box-sizing:content-box; 
+	background-color: #f6f6f6;
+	height:500px;
+	width:95%;
+	margin-left: auto;
+	margin-right:auto;
+	margin-bottom:100px;
+	padding:20px;}
+	
+.input_full_name{ 
+	margin-top:8%;
+	border-radius:5px;
+	width:300px;
+	height:40px;
+	background-repeat:no-repeat;
+	text-indent:10px;
+	border-top-style: ridge;
+	}
+	
+.button_add_new_admin{
+	margin-top:8%;
+	margin-bottom:6%;
+	border-radius:5px;
+	width:300px;
+	height:50px;
+	background-color:#0f739f;
+	font:"Arial Black", Gadget, sans-serif;
+	color:#fff;
+	font-size:14px;
+}
+
+/*ADMIN ADD NEW CUSTOMER*/
+
+.input_full_name_new_customer{ 
+	margin-top:8%;
+	border-radius:5px;
+	width:300px;
+	height:40px;
+	background-repeat:no-repeat;
+	text-indent:10px;
+	border-top-style: ridge;
+	}
+	
+/*ADMIN VALIDATE CVS*/
+
+.input_name_of_project{ 
+	margin-top:4%;
+	border-radius:5px;
+	width:450px;
+	height:40px;
+	background-repeat:no-repeat;
+	text-indent:10px;
+	border-top-style: ridge;
+	color: #333;
+	}
+	
+	.input_name_of_schema{ 
+	margin-top:4%;
+	border-radius:5px;
+	width:260px;
+	height:40px;
+	background-repeat:no-repeat;
+	text-indent:10px;
+	border-top-style: ridge;
+	color: #333;
+	}
+	
+	.button_upload_cvs{
+	margin-top:8%;
+	margin-bottom:6%;
+	border-radius:5px;
+	width:150px;
+	height:50px;
+	background-color:#0f739f;
+	font:"Arial Black", Gadget, sans-serif;
+	color:#fff;
+	font-size:14px;
+}
+	
+	.button_validate{
+	margin-top:8%;
+	margin-bottom:6%;
+	border-radius:5px;
+	width:150px;
+	height:50px;
+	background-color:#0f739f;
+	font:"Arial Black", Gadget, sans-serif;
+	color:#fff;
+	font-size:14px;
+}
+
+/*ADMIN ADD NEW PROJECT*/
+
+.input_name_of_new_project{ 
+	margin-top:4%;
+	border-radius:5px;
+	width:450px;
+	height:40px;
+	background-repeat:no-repeat;
+	text-indent:10px;
+	border-top-style: ridge;
+	color: #333;
+	}
+	
+	.button_upload_schema{
+	margin-top:8%;
+	margin-bottom:6%;
+	border-radius:5px;
+	width:170px;
+	height:35px;
+	background-color:#b6b6b6;
+	font:"Arial Black", Gadget, sans-serif;
+	color:#fff;
+	font-size:14px;
+}
+
+	.button_create_project{
+	margin-top:8%;
+	margin-bottom:6%;
+	border-radius:5px;
+	width:170px;
+	height:35px;
+	background-color:#0f739f;
+	font:"Arial Black", Gadget, sans-serif;
+	color:#fff;
+	font-size:14px;
+}
+
+/*ADMIN ADD NEW PROJECT MORE SCHEMAS*/
+
+.line{ background-color:#dddddd;
+height:2px;
+width:100%;}
+	
+/*ADMIN ADD NEW PROJECT MORE PROJECTS*/	
+
+.button_add_more_project{
+	margin-top:8%;
+	margin-bottom:6%;
+	border-radius:5px;
+	width:190px;
+	height:35px;
+	background-color:#0f739f;
+	font:"Arial Black", Gadget, sans-serif;
+	color:#fff;
+	font-size:14px;
+}
+
+/*ADMIN DASHBOARD*/	
+
+.box_admin_dashboard{
+	box-sizing:content-box; 
+	background-color: #f6f6f6;
+	height:500px;
+	width:95%;
+	margin-left: auto;
+	margin-right:auto;
+	margin-bottom:100px;}
+	
+	.admin_dashboard_titles{
+	background-color: #7e8995;
+	height:50px;
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	font-size:16px;
+	text-indent:20px;}
+	
+	.admin_dashboard_content{
+	height:50px;
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#545454;
+	font-size:14px;
+	text-indent:20px;}
