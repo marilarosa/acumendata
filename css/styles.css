@@ -339,21 +339,30 @@ width:100%;}
 
 .box_admin_dashboard{
 	box-sizing:content-box; 
-	background-color: #f6f6f6;
-	height:500px;
+	background-color: #ececec;
+	height: 80%;
 	width:95%;
 	margin-left: auto;
 	margin-right:auto;
-	margin-bottom:100px;}
+	margin-bottom:100px;
+	margin-top:30px;
+	float:inherit;}
+	
+	.admin_dashboard_space{
+	background-color: #7e8995;
+	height:50px;
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;}
 	
 	.admin_dashboard_titles{
-	background-color: #7e8995;
 	height:50px;
 	width:100%;
 	font-family:Arial, Helvetica, sans-serif;
 	color:#FFF;
 	font-size:16px;
-	text-indent:20px;}
+	text-indent:20px;
+	border-color:#FFF;
+	border-bottom:hidden;}
 	
 	.admin_dashboard_content{
 	height:50px;
@@ -361,8 +370,8 @@ width:100%;}
 	font-family:Arial, Helvetica, sans-serif;
 	color:#545454;
 	font-size:14px;
-	text-indent:20px;}
-	
+	text-indent:20px;
+	border: inherit;}
 	
 	/*ADMIN CUSTOMER FULL VIEW*/
 	
@@ -424,3 +433,87 @@ float: left;}
 .info_admin_project{
 	float: left;
 	padding-right:30px;}
+
+	/*VALIDATION RESULTS*/
+	
+.validation_box {
+	border: 1px solid #dddddd;
+	height:auto;
+	width:90%;
+	margin-left: auto;
+	margin-right:auto;
+	padding:20px;
+	border-radius:5px;
+	float:inherit;
+	}
+	
+	.text_validation_title{ font-family:Arial, Helvetica, sans-serif;
+	font-size:28px;
+	color: #4d4d4d;
+	margin-left:70px;}
+	
+	.text_validation1{ font-family:"Arial Black", Gadget, sans-serif;
+	font-size:16px;
+	color:#508ec7;
+	margin-bottom:20px;
+	float:left;}
+	
+		.text_validation2{ font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color: #333333;
+	margin-bottom:20px;
+	float:left;}
+	
+	.button_download_standardised_csv{ 
+	width:320px;
+	height:40px;
+	background-color:#68cca5;
+	margin-bottom:6%;
+	border-radius:5px;
+	font:"Arial Black", Gadget, sans-serif;
+	color:#fff;
+	font-size:14px;
+	border:none;
+	}
+	
+	.button_validate_again{ 
+	width:200px;
+	height:40px;
+	background-color:#ed7233;
+	margin-bottom:6%;
+	border-radius:5px;
+	font:"Arial Black", Gadget, sans-serif;
+	color:#fff;
+	font-size:14px;
+	border:none;
+	}
+	
+	.structure_box{ width:630px;
+	height:220px;
+	width:630px;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:16px;
+	color:#508ec7;
+	float:right;
+	src:url(../pruebacaja.html);}
+	
+	.warning_box{ 
+	background-color:#fcf7e4;
+	height:auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color: #333;
+	margin-top:10px;
+	margin-bottom:10px;
+	padding:20px 10px 20px 10px;
+	width:90%;
+	margin-left: auto;
+	margin-right:auto;
+	padding:20px;
+	border-radius:5px;
+	float:inherit;}
+	
+	.warning_title{ font-family:Arial, Helvetica, sans-serif;
+	font-size:24px;
+	color: #4d4d4d;
+	margin-left:70px;}

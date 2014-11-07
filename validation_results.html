@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Acumendata</title>
+<link rel="stylesheet" href="css/styles.css">
+<link rel="shortcut icon" href="http://www.acumendata.com/images/favicon.ico">
+</head>
+
+<body>
+<iframe src="resources/header.html" scrolling="no" width="100%" frameborder="0"> </iframe>
+
+<p class="text_validation_title">Validation Results</p>
+<div class="validation_box">
+	<div class="text_validation1">http://ichart.yahoo.com/table.csv?s=GOOG&a=10&b=28c=2013&d=10&e=2&f=2014&g=d&ignore=.csv </div>
+    <div class="structure_box"><img src="img/structure_box.jpg" width="632" height="220"></div>
+  <div style="width:350px"><div class="text_validation2">Congratulations! <br>
+Your CVS is valid! However, there are some issues that you may want to address to make it as easy as possible to reuse your data</div>
+<form action="" method="get"><input type="button" class="button_download_standardised_csv" value="Download Standardised CVS"></form>
+<form action="" method="get"><input type="button" class="button_validate_again" value="Validate again"></form></div>
+
+
+</div>
+      <p class="warning_title">1 Warning</p>
+      <div class="warning_box">Context problem: No encoding<br>
+
+
+The encoding of your CVS file is not being declared in the HTTP response.
+We recommend that you configure your server to deliver CSV files with a Content-Type header of text/csv; charset=utf-8. If you are using a different encoding, then use an apptopiate value for the charset parameter.</div>
+
+
+</body>
+</html>
