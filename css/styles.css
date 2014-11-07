@@ -196,8 +196,8 @@ margin: 20px 20px 20px 20px;
 	margin-top:8%;
 	margin-bottom:6%;
 	border-radius:5px;
-	width:300px;
-	height:50px;
+	width:170px;
+	height:40px;
 	background-color:#0f739f;
 	font:"Arial Black", Gadget, sans-serif;
 	color:#fff;
@@ -216,6 +216,18 @@ margin: 20px 20px 20px 20px;
 	border-top-style: ridge;
 	}
 	
+	.button_add_new_costumer_create_user{
+	margin-top:8%;
+	margin-bottom:6%;
+	border-radius:5px;
+	width:150px;
+	height:40px;
+	background-color:#0f739f;
+	font:"Arial Black", Gadget, sans-serif;
+	color:#fff;
+	font-size:14px;
+}
+	
 /*ADMIN VALIDATE CVS*/
 
 .input_name_of_project{ 
@@ -224,7 +236,7 @@ margin: 20px 20px 20px 20px;
 	width:450px;
 	height:40px;
 	background-repeat:no-repeat;
-	text-indent:10px;
+	text-indent:20px;
 	border-top-style: ridge;
 	color: #333;
 	border-top-color:#FFF;
@@ -350,3 +362,65 @@ width:100%;}
 	color:#545454;
 	font-size:14px;
 	text-indent:20px;}
+	
+	
+	/*ADMIN CUSTOMER FULL VIEW*/
+	
+	.box_admin_costumer_full_view{
+	box-sizing:content-box; 
+	background-color: #f6f6f6;
+	height: auto;
+	width:95%;
+	margin-left: auto;
+	margin-right:auto;
+	margin-bottom:100px;
+	padding:20px; overflow:auto;}
+	
+		.button_add_new_project{
+	margin-top:8%;
+	margin-bottom:6%;
+	border-radius:5px;
+	width:170px;
+	height:35px;
+	background-color:#0f739f;
+	font:"Arial Black", Gadget, sans-serif;
+	color:#fff;
+	font-size:14px;
+	float:right;
+}
+
+.button_add_new_project_box{
+	float: right;
+	padding-right:30px;}
+	
+.tit_admin_costumer{
+	float: inherit;
+	padding-top:100px;}
+	
+.info_admin_costumer{
+	float: left;
+	padding-right:30px;}
+	
+	.line2{ background-color:#dddddd;
+height:2px;
+width:100%;
+float: left;}
+
+	/*HEADER ADD*/
+	
+		.button_add_new_costumer_header{
+	margin-top:8%;
+	margin-bottom:6%;
+	border-radius:5px;
+	width:235px;
+	height:35px;
+	background-color:#0f739f;
+	font:"Arial Black", Gadget, sans-serif;
+	color:#fff;
+	font-size:14px;
+}
+
+	/*ADMIN PROJECT FULL VIEW*/
+.info_admin_project{
+	float: left;
+	padding-right:30px;}
