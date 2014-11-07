@@ -339,39 +339,42 @@ width:100%;}
 
 .box_admin_dashboard{
 	box-sizing:content-box; 
-	background-color: #ececec;
 	height: 80%;
 	width:95%;
 	margin-left: auto;
 	margin-right:auto;
-	margin-bottom:100px;
+	margin-bottom:30px;
 	margin-top:30px;
 	float:inherit;}
 	
-	.admin_dashboard_space{
-	background-color: #7e8995;
-	height:50px;
-	width:100%;
-	font-family:Arial, Helvetica, sans-serif;}
-	
-	.admin_dashboard_titles{
-	height:50px;
-	width:100%;
-	font-family:Arial, Helvetica, sans-serif;
-	color:#FFF;
-	font-size:16px;
-	text-indent:20px;
-	border-color:#FFF;
-	border-bottom:hidden;}
-	
-	.admin_dashboard_content{
-	height:50px;
-	width:100%;
-	font-family:Arial, Helvetica, sans-serif;
-	color:#545454;
-	font-size:14px;
-	text-indent:20px;
-	border: inherit;}
+	.dashboard_titles{ height:50px;
+background-color:#7e8995;
+border: 1px #FFFFFF solid;
+font-family:Arial, Helvetica, sans-serif;
+color:#FFF;
+font-size:16px;
+background-origin:border-box;
+text-indent:10px;}
+
+.dashboard_content{ height:40px;
+background-color:#ededed;
+border: 1px #FFFFFF solid;
+font-family:Arial, Helvetica, sans-serif;
+color:#545454;
+font-size:14px;
+background-origin:border-box;
+text-indent:10px;}
+
+.circled_number{ 
+	font-family:Arial, Helvetica, sans-serif; 
+	color:#0e739f; 
+	font-size:13px; 
+	text-align:right; 
+	width:95%; 	
+	margin-left: auto;
+	margin-right:auto;
+	margin-bottom:100px;
+	float:inherit;}
 	
 	/*ADMIN CUSTOMER FULL VIEW*/
 	
