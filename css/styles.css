@@ -175,7 +175,7 @@ margin: 20px 20px 20px 20px;
 .block_add_new_admin{
 	box-sizing:content-box; 
 	background-color: #f6f6f6;
-	height:500px;
+	height:550px;
 	width:95%;
 	margin-left: auto;
 	margin-right:auto;
@@ -202,6 +202,7 @@ margin: 20px 20px 20px 20px;
 	font:"Arial Black", Gadget, sans-serif;
 	color:#fff;
 	font-size:14px;
+	border:none;
 }
 
 /*ADMIN ADD NEW CUSTOMER*/
@@ -226,6 +227,7 @@ margin: 20px 20px 20px 20px;
 	font:"Arial Black", Gadget, sans-serif;
 	color:#fff;
 	font-size:14px;
+	border:none;
 }
 	
 /*ADMIN VALIDATE CVS*/
@@ -234,24 +236,26 @@ margin: 20px 20px 20px 20px;
 	margin-top:4%;
 	border-radius:5px;
 	width:450px;
-	height:40px;
+	height:30px;
 	background-repeat:no-repeat;
-	text-indent:20px;
+	text-indent:10px;
 	border-top-style: ridge;
 	color: #333;
 	border-top-color:#FFF;
+	border:none;
 	}
 	
 	.input_name_of_schema{ 
 	margin-top:4%;
 	border-radius:5px;
 	width:260px;
-	height:40px;
+	height:30px;
 	background-repeat:no-repeat;
 	text-indent:10px;
 	border-top-style: ridge;
 	color: #333;
 	border-top-color:#FFF;
+	border:none;
 	}
 	
 	.button_upload_cvs{
@@ -259,11 +263,12 @@ margin: 20px 20px 20px 20px;
 	margin-bottom:6%;
 	border-radius:5px;
 	width:150px;
-	height:50px;
+	height:40px;
 	background-color:#0f739f;
 	font:"Arial Black", Gadget, sans-serif;
 	color:#fff;
 	font-size:14px;
+	border:none;
 }
 	
 	.button_validate{
@@ -271,11 +276,12 @@ margin: 20px 20px 20px 20px;
 	margin-bottom:6%;
 	border-radius:5px;
 	width:150px;
-	height:50px;
+	height:40px;
 	background-color:#0f739f;
 	font:"Arial Black", Gadget, sans-serif;
 	color:#fff;
 	font-size:14px;
+	border:none;
 }
 
 /*ADMIN ADD NEW PROJECT*/
@@ -301,6 +307,7 @@ margin: 20px 20px 20px 20px;
 	font:"Arial Black", Gadget, sans-serif;
 	color:#fff;
 	font-size:14px;
+	border:none;
 }
 
 	.button_create_project{
@@ -313,6 +320,33 @@ margin: 20px 20px 20px 20px;
 	font:"Arial Black", Gadget, sans-serif;
 	color:#fff;
 	font-size:14px;
+	border:none;
+}
+
+	.button_upload_schema2{
+	margin-top:8%;
+	margin-bottom:6%;
+	border-radius:5px;
+	width:170px;
+	height:35px;
+	background-color:#b6b6b6;
+	font:"Arial Black", Gadget, sans-serif;
+	color:#fff;
+	font-size:14px;
+	border:none;
+}
+
+	.button_create_project2{
+	margin-top:8%;
+	margin-bottom:6%;
+	border-radius:5px;
+	width:170px;
+	height:35px;
+	background-color:#0f739f;
+	font:"Arial Black", Gadget, sans-serif;
+	color:#fff;
+	font-size:14px;
+	border:none;
 }
 
 /*ADMIN ADD NEW PROJECT MORE SCHEMAS*/
@@ -333,6 +367,7 @@ width:100%;}
 	font:"Arial Black", Gadget, sans-serif;
 	color:#fff;
 	font-size:14px;
+	border:none;
 }
 
 /*ADMIN DASHBOARD*/	
@@ -365,16 +400,28 @@ font-size:14px;
 background-origin:border-box;
 text-indent:10px;}
 
+.dashboard_content:hover {
+	height:40px;
+background-color: #d5d5d5;
+border: 1px #FFFFFF solid;
+font-family:Arial, Helvetica, sans-serif;
+color:#545454;
+font-size:14px;
+background-origin:border-box;
+text-indent:10px;
+}
+
 .circled_number{ 
 	font-family:Arial, Helvetica, sans-serif; 
 	color:#0e739f; 
-	font-size:13px; 
+	font-size:15px; 
 	text-align:right; 
 	width:95%; 	
 	margin-left: auto;
 	margin-right:auto;
 	margin-bottom:100px;
-	float:inherit;}
+	float:inherit;
+	letter-spacing:5px;}
 	
 	/*ADMIN CUSTOMER FULL VIEW*/
 	
@@ -399,6 +446,7 @@ text-indent:10px;}
 	color:#fff;
 	font-size:14px;
 	float:right;
+	border:none;
 }
 
 .button_add_new_project_box{
@@ -425,11 +473,30 @@ float: left;}
 	margin-bottom:6%;
 	border-radius:5px;
 	width:235px;
-	height:35px;
+	height:43px;
 	background-color:#0f739f;
 	font:"Arial Black", Gadget, sans-serif;
 	color:#fff;
 	font-size:14px;
+	background-image:url(../img/add_new.png);
+	background-repeat:no-repeat;
+	border:none;
+	text-indent:20px;
+
+}
+
+.button_validate_your_cvs{
+	margin-top:8%;
+	margin-bottom:6%;
+	border-radius:5px;
+	width:235px;
+	height:43px;
+	background-color:#0f739f;
+	font:"Arial Black", Gadget, sans-serif;
+	color:#fff;
+	font-size:14px;
+	border:none;
+
 }
 
 	/*ADMIN PROJECT FULL VIEW*/
@@ -477,6 +544,8 @@ float: left;}
 	color:#fff;
 	font-size:14px;
 	border:none;
+	background-image:url(../img/download_ic.png);
+	background-repeat:no-repeat;
 	}
 	
 	.button_validate_again{ 
@@ -489,6 +558,8 @@ float: left;}
 	color:#fff;
 	font-size:14px;
 	border:none;
+	background-image:url(../img/arrows.png);
+	background-repeat:no-repeat;
 	}
 	
 	.structure_box{ width:630px;
