@@ -116,8 +116,94 @@ body {
 	
 	/***********************END HEADER*****************************/
 	
+	/***********************BUTTONS*****************************/
+	
+		.blue_button_small{
+	margin-top:8%;
+	margin-bottom:6%;
+	border-radius:5px;
+	width:160px;
+	height:40px;
+	background-color:#0f739f;
+	font:"Arial Black", Gadget, sans-serif;
+	color:#fff;
+	font-size:14px;
+	border:none;
+}
+
+.blue_button_small:hover { background-color: #1480af;
+}
+
+		.blue_button_large{
+	margin-top:8%;
+	margin-bottom:6%;
+	border-radius:5px;
+	width:235px;
+	height:40px;
+	background-color:#0f739f;
+	font:"Arial Black", Gadget, sans-serif;
+	color:#fff;
+	font-size:14px;
+	border:none;
+}
+
+.blue_button_large:hover { background-color: #1480af;
+}
+
+		.blue_button_header{
+	margin-top:8%;
+	margin-bottom:6%;
+	border-radius:5px;
+	width:235px;
+	height:43px;
+	background-color:#0f739f;
+	font:"Arial Black", Gadget, sans-serif;
+	color:#fff;
+	font-size:14px;
+	background-image:url(../img/add_new.png);
+	background-repeat:no-repeat;
+	border:none;
+	text-indent:20px;
+
+}
+
+.blue_button_header:hover { background-color: #1480af;
+}
+	.gray_button_small{
+	margin-top:8%;
+	margin-bottom:6%;
+	border-radius:5px;
+	width:160px;
+	height:40px;
+	background-color:#b6b6b6;
+	font:"Arial Black", Gadget, sans-serif;
+	color:#fff;
+	font-size:14px;
+	border:none;
+}
+
+.gray_button_small:hover { background-color: #cccccc;
+}
+
+.input_text_info{ 
+	margin-top:8%;
+	border-radius:5px;
+	width:300px;
+	height:40px;
+	background-repeat:no-repeat;
+	text-indent:10px;
+	border-top-style: ridge;
+	color: #A4A4A4;
+	border-top-color:#FFF;
+	border:none;
+
+
+	}
+
+	/***********************END BUTTONS*****************************/
 	
 /*LOGIN-ADMIN.HTML*/
+
 .login{ width:380px;
 height:500px;
 margin-left: auto;
@@ -136,15 +222,6 @@ margin-bottom:5%;
 	margin-top:30px;
 	}
 	
-	.input_text{ 
-	border-radius:5px;
-	width:300px;
-	height:40px;
-	background-repeat:no-repeat;
-	text-indent:30px;
-	border-top-style: ridge;
-	}
-
 .input_email{ 
 	margin-left: 8%;
 	margin-right:10%;
@@ -172,9 +249,8 @@ margin-bottom:5%;
 	border-top-style: ridge;
 	border-left-style: ridge;
 	}	
-	
-	
-		.buttons{margin-left: 8%;
+
+		.button_login{margin-left: 8%;
 	margin-right:10%;
 	margin-top:8%;
 	margin-bottom:6%;
@@ -187,24 +263,7 @@ margin-bottom:5%;
 	font-size:14px;
 	border:none;
 }
-.buttons:hover { background-color: #1480af;
-}
-
-	.boton_login{margin-left: 8%;
-	margin-right:10%;
-	margin-top:8%;
-	margin-bottom:6%;
-	border-radius:5px;
-	width:300px;
-	height:50px;
-	background-color:#0f739f;
-	font:"Arial Black", Gadget, sans-serif;
-	color:#fff;
-	font-size:14px;
-	border:none;
-}
-
-.boton_login: hover { color:#0F0;
+.button_login:hover { background-color: #1480af;
 }
 
 .forgot_password { font-family:Arial, Helvetica, sans-serif; 
@@ -236,8 +295,6 @@ text-align:center;}
 
 
 /*ADD NEW ADMIN*/
-
-
 	
 .block_add_new_admin{
 	box-sizing:content-box; 
@@ -248,194 +305,12 @@ text-align:center;}
 	margin-right:auto;
 	margin-bottom:100px;
 	padding:20px;}
-	
-.input_full_name{ 
-	margin-top:8%;
-	border-radius:5px;
-	width:300px;
-	height:40px;
-	background-repeat:no-repeat;
-	text-indent:10px;
-	border-top-style: ridge;
-	}
-	
-.button_add_new_admin{
-	margin-top:8%;
-	margin-bottom:6%;
-	border-radius:5px;
-	width:170px;
-	height:40px;
-	background-color:#0f739f;
-	font:"Arial Black", Gadget, sans-serif;
-	color:#fff;
-	font-size:14px;
-	border:none;
-}
-
-/*ADMIN ADD NEW CUSTOMER*/
-
-.input_full_name_new_customer{ 
-	margin-top:8%;
-	border-radius:5px;
-	width:300px;
-	height:40px;
-	background-repeat:no-repeat;
-	text-indent:10px;
-	border-top-style: ridge;
-	}
-	
-	.button_add_new_costumer_create_user{
-	margin-top:8%;
-	margin-bottom:6%;
-	border-radius:5px;
-	width:150px;
-	height:40px;
-	background-color:#0f739f;
-	font:"Arial Black", Gadget, sans-serif;
-	color:#fff;
-	font-size:14px;
-	border:none;
-}
-	
-/*ADMIN VALIDATE CVS*/
-
-.input_name_of_project{ 
-	margin-top:4%;
-	border-radius:5px;
-	width:450px;
-	height:30px;
-	background-repeat:no-repeat;
-	text-indent:10px;
-	border-top-style: ridge;
-	color: #333;
-	border-top-color:#FFF;
-	border:none;
-	}
-	
-	.input_name_of_schema{ 
-	margin-top:4%;
-	border-radius:5px;
-	width:260px;
-	height:30px;
-	background-repeat:no-repeat;
-	text-indent:10px;
-	border-top-style: ridge;
-	color: #333;
-	border-top-color:#FFF;
-	border:none;
-	}
-	
-	.button_upload_cvs{
-	margin-top:8%;
-	margin-bottom:6%;
-	border-radius:5px;
-	width:150px;
-	height:40px;
-	background-color:#0f739f;
-	font:"Arial Black", Gadget, sans-serif;
-	color:#fff;
-	font-size:14px;
-	border:none;
-}
-	
-	.button_validate{
-	margin-top:8%;
-	margin-bottom:6%;
-	border-radius:5px;
-	width:150px;
-	height:40px;
-	background-color:#0f739f;
-	font:"Arial Black", Gadget, sans-serif;
-	color:#fff;
-	font-size:14px;
-	border:none;
-}
-
-/*ADMIN ADD NEW PROJECT*/
-
-.input_name_of_new_project{ 
-	margin-top:4%;
-	border-radius:5px;
-	width:450px;
-	height:40px;
-	background-repeat:no-repeat;
-	text-indent:10px;
-	border-top-style: ridge;
-	color: #333;
-	}
-	
-	.button_upload_schema{
-	margin-top:8%;
-	margin-bottom:6%;
-	border-radius:5px;
-	width:170px;
-	height:35px;
-	background-color:#b6b6b6;
-	font:"Arial Black", Gadget, sans-serif;
-	color:#fff;
-	font-size:14px;
-	border:none;
-}
-
-	.button_create_project{
-	margin-top:8%;
-	margin-bottom:6%;
-	border-radius:5px;
-	width:170px;
-	height:35px;
-	background-color:#0f739f;
-	font:"Arial Black", Gadget, sans-serif;
-	color:#fff;
-	font-size:14px;
-	border:none;
-}
-
-	.button_upload_schema2{
-	margin-top:8%;
-	margin-bottom:6%;
-	border-radius:5px;
-	width:170px;
-	height:35px;
-	background-color:#b6b6b6;
-	font:"Arial Black", Gadget, sans-serif;
-	color:#fff;
-	font-size:14px;
-	border:none;
-}
-
-	.button_create_project2{
-	margin-top:8%;
-	margin-bottom:6%;
-	border-radius:5px;
-	width:170px;
-	height:35px;
-	background-color:#0f739f;
-	font:"Arial Black", Gadget, sans-serif;
-	color:#fff;
-	font-size:14px;
-	border:none;
-}
 
 /*ADMIN ADD NEW PROJECT MORE SCHEMAS*/
 
 .line{ background-color:#dddddd;
 height:2px;
 width:100%;}
-	
-/*ADMIN ADD NEW PROJECT MORE PROJECTS*/	
-
-.button_add_more_project{
-	margin-top:8%;
-	margin-bottom:6%;
-	border-radius:5px;
-	width:190px;
-	height:35px;
-	background-color:#0f739f;
-	font:"Arial Black", Gadget, sans-serif;
-	color:#fff;
-	font-size:14px;
-	border:none;
-}
 
 /*ADMIN DASHBOARD*/	
 
@@ -532,24 +407,6 @@ padding-left:10px;}
 	margin-bottom:100px;
 	padding:20px; overflow:auto;}
 	
-		.button_add_new_project{
-	margin-top:8%;
-	margin-bottom:6%;
-	border-radius:5px;
-	width:170px;
-	height:35px;
-	background-color:#0f739f;
-	font:"Arial Black", Gadget, sans-serif;
-	color:#fff;
-	font-size:14px;
-	float:right;
-	border:none;
-}
-
-.button_add_new_project_box{
-	float: right;
-	padding-right:30px;}
-	
 .tit_admin_costumer{
 	float: inherit;
 	padding-top:100px;}
@@ -563,38 +420,6 @@ height:2px;
 width:100%;
 float: left;}
 
-	/*HEADER ADD*/
-	
-		.button_add_new_costumer_header{
-	margin-top:8%;
-	margin-bottom:6%;
-	border-radius:5px;
-	width:235px;
-	height:43px;
-	background-color:#0f739f;
-	font:"Arial Black", Gadget, sans-serif;
-	color:#fff;
-	font-size:14px;
-	background-image:url(../img/add_new.png);
-	background-repeat:no-repeat;
-	border:none;
-	text-indent:20px;
-
-}
-
-.button_validate_your_cvs{
-	margin-top:8%;
-	margin-bottom:6%;
-	border-radius:5px;
-	width:235px;
-	height:43px;
-	background-color:#0f739f;
-	font:"Arial Black", Gadget, sans-serif;
-	color:#fff;
-	font-size:14px;
-	border:none;
-
-}
 
 	/*ADMIN PROJECT FULL VIEW*/
 .info_admin_project{
