@@ -305,6 +305,13 @@ text-align:center;}
 	margin-right:auto;
 	margin-bottom:100px;
 	padding:20px;}
+	
+	.box{
+	box-sizing:content-box; 
+	width:97%;
+	margin-left: auto;
+	margin-right:auto;
+	margin-bottom:100px;}
 
 /*ADMIN ADD NEW PROJECT MORE SCHEMAS*/
 
